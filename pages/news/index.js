@@ -1,6 +1,7 @@
+// http://localhost:3000/news/
 import Head from "next/head";
 
-function news() {
+export default function NewsPage() {
   return (
     <>
       <Head>
@@ -14,5 +15,3 @@ function news() {
     </>
   );
 }
-
-export default news;
